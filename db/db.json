@@ -1,81 +1,153 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Pão Americano"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "Pão Australiano"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Pão de Azeite"
+      },
+      {
+        "id": 4,
+        "tipo": "Pão Brioche "
+      },
+      {
+        "id": 5,
+        "tipo": "Pão de Cebola"
+      },
+      {
+        "id": 6,
+        "tipo": "Pão Ciabatta"
+      },
+      {
+        "id": 7,
+        "tipo": "Pão Integral"
+      },
+      {
+        "id": 8,
+        "tipo": "Pão Italiano"
+      },
+      {
+        "id": 9,
+        "tipo": "Pão de Parmesão e Orégano"
+      },
+      {
+        "id": 10,
+        "tipo": "Pão 3 queijos"
       }
     ],
-    "burgers": []
-  }
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Alcatra - 130g"
+      },
+      {
+        "id": 2,
+        "tipo": "Baby-beef - 140g"
+      },
+      {
+        "id": 3,
+        "tipo": "Maminha - 100g"
+      },
+      {
+        "id": 4,
+        "tipo": "Picanha - 160g"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Batata Palha"
+      },
+      {
+        "id": 3,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 4,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola Caramelizada"
+      },
+      {
+        "id": 6,
+        "tipo": "Cebola Roxa"
+      },
+      {
+        "id": 7,
+        "tipo": "Cheddar Cremoso"
+      },
+      {
+        "id": 8,
+        "tipo": "Doritos"
+      },
+      {
+        "id": 9,
+        "tipo": "Frango Desfiado"
+      },
+      {
+        "id": 10,
+        "tipo": "Milho"
+      },
+      {
+        "id": 11,
+        "tipo": "Molho Especial"
+      },
+      {
+        "id": 12,
+        "tipo": "Ovo"
+      },
+      {
+        "id": 13,
+        "tipo": "Pepino"
+      },
+      {
+        "id": 14,
+        "tipo": "Picles"
+      },
+      {
+        "id": 15,
+        "tipo": "Presunto"
+      },
+      {
+        "id": 16,
+        "tipo": "Queijo"
+      },
+      {
+        "id": 17,
+        "tipo": "Salada"
+      },
+      {
+        "id": 18,
+        "tipo": "Tomate"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": []
+}
