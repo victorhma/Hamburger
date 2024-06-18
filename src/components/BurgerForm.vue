@@ -96,8 +96,16 @@ export default {
             this.nome = "";
             this.carne = "";
             this.pao = "";
-            this.opcionais = "";
-
+            this.opcionais = "",
+            
+            this.scrollToTop();
+        },
+        scrollToTop() {
+            window.scrollTo({
+                top: 0, 
+                left: 0,
+                behavior: 'smooth'
+            });
         }
     },
     mounted() {
